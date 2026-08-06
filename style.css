@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(240, 240, 240);
+    animation-name: colorChange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}  
+
+@keyframes colorChange {
+    0% {
+        background-color: #f572f5;
+    }
+    25% {
+        background-color: #ff6b6b;
+    }
+    50% {
+        background-color: #4ecdc4;
+    }
+    75% {
+        background-color: #45b7d1;
+    }
+    100% {
+        background-color: #f572f5;
+    }
+}
